@@ -42,20 +42,20 @@ async def init():
     try:
         await Anony.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
-        LOGGER("Devilz Music").error(
+        LOGGER("AnonXMusic").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
         )
         exit()
     except:
         pass
     await Anony.decorators()
-    LOGGER("Devilz Music").info(
+    LOGGER("AnonXMusic").info(
         b"\x00@\x00w\x00h\x00i\x00t\x00e\x00h\x00e\x00l\x00l\x000\x001\x001\x00 \x00'\x00s\x00 \x00M\x00u\x00s\x00i\x00c\x00 \x00B\x00o\x00t\x00 \x00S\x00t\x00a\x00r\x00t\x00e\x00d\x00 \x00S\x00u\x00c\x00c\x00e\x00s\x00s\x00f\x00u\x00l\x00l\x00y\x00.\x00\n\x00\n\x00D\x00o\x00n\x00'\x00t\x00 \x00f\x00o\x00r\x00g\x00e\x00t\x00 \x00t\x00o\x00 \x00v\x00i\x00s\x00i\x00t\x00 \x00@\x00d\x00i\x00l\x00_\x00k\x00i\x00_\x00b\x00a\x00a\x00t\x00e\x00e\x00 \x00a\x00n\x00d\x00 \x00@\x00h\x00e\x00a\x00r\x00t\x00_\x00t\x00a\x00l\x00k\x00z"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("Devilz Music").info("Stopping Devilz Music Bot...")
+    LOGGER("AnonXMusic").info("Stopping Devilz Music Bot...")
 
 
 if __name__ == "__main__":
