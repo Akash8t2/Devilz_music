@@ -35,8 +35,8 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("Devilz Music.plugins" + all_module)
-    LOGGER("Devilz Music.plugins").info("Successfully Imported Modules...")
+        importlib.import_module("AnonXMusic.plugins" + all_module)
+    LOGGER("AnonXMusic.plugins").info("Successfully Imported Modules...")
     await userbot.start()
     await Anony.start()
     try:
